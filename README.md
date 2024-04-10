@@ -45,8 +45,8 @@ Chai will provide you with the corresponding bash commands for each query.
 
 ## Contributing
 
-Contributions to Chai are welcome! If you have any suggestions, bug reports, or feature requests, please feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/your-username/chai).
+Contributions to Chai are welcome! If you have any suggestions, bug reports, or feature requests, please feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/ritiksahni/chai).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
