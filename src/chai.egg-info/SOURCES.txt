@@ -1,0 +1,9 @@
+setup.py
+src/chai/__init__.py
+src/chai/__main__.py
+src/chai.egg-info/PKG-INFO
+src/chai.egg-info/SOURCES.txt
+src/chai.egg-info/dependency_links.txt
+src/chai.egg-info/entry_points.txt
+src/chai.egg-info/requires.txt
+src/chai.egg-info/top_level.txt
