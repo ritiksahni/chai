@@ -10,7 +10,9 @@ def main():
     parser = argparse.ArgumentParser(description='AI in your CLI')
     parser.add_argument('args', nargs='*', help="Query in natural language")
     args = parser.parse_args()
-    queryGPT(args.args[0])
+    response = queryGPT(args.args[0])
+    print(response)
+
 
 def queryGPT(userQuery):
     if(userQuery is None):
@@ -29,4 +31,4 @@ def queryGPT(userQuery):
     )
 
 
-    print(completion["choices"][0]["message"]["content"])
+    return completion["choices"][0]["message"]["content"]
