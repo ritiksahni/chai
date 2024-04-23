@@ -2,6 +2,7 @@ import argparse
 import os
 import sys
 import openai
+import pyperclip
 
 def main():
     if(os.environ.get('OPENAI_API_KEY') is None):
@@ -12,6 +13,7 @@ def main():
     args = parser.parse_args()
     response = queryGPT(args.args[0])
     print(response)
+    pyperclip.copy(response)
 
 
 def queryGPT(userQuery):
