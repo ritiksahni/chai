@@ -33,6 +33,14 @@ You can install Chai via pip:
 pip install chai-cli
 ```
 
+### Clipboard
+
+Every output is copied to your clipboard. To ensure that it works, run the following command to install required tools on Linux.
+
+```
+sudo apt-get install xclip xsel wl-clipboard
+```
+
 ## Examples
 
 Here are some examples of queries you can ask Chai:

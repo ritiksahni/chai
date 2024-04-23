@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='chai-cli',
-    version='0.2.1',
+    version='0.3.0',
     author='Ritik Sahni',
     author_email='ritiksahni0203@gmail.com',
     description='AI in your CLI.',
@@ -17,7 +17,8 @@ setup(
     package_dir={'': 'src'},
     install_requires=[
         'openai',
-        'argparse'
+        'argparse',
+        'pyperclip'
     ],
     entry_points={
         'console_scripts': [
